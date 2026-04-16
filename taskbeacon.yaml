@@ -1,0 +1,15 @@
+id: T000046
+slug: anti-reach-task
+title: Anti-Reach Task
+acquisition: behavior
+variant: baseline
+cognitive_domain:
+  - cognitive-control
+  - sensorimotor-transformation
+maturity: draft
+version:
+  release_tag: v0.1.0-dev
+contracts:
+  psyflow_taps: v0.1.0
+evidence: []
+maintainer: []

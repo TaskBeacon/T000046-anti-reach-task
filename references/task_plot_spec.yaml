@@ -1,0 +1,535 @@
+task_plot_spec:
+  spec_version: '0.2'
+  meta:
+    task_name: Anti-Reach Task
+    mode: existing
+    task_id: T000046
+  figure:
+    output:
+      filename: task_flow.png
+      dpi: 300
+      width_in: 16.0
+      background: white
+    layout:
+      max_conditions: 2
+      screens_per_timeline: 7
+      screen_overlap_ratio: 0.1
+      screen_slope: 0.08
+      screen_slope_deg: 25.0
+      timeline_gap: 0.18
+      screen_aspect_ratio: 1.4545454545454546
+      left_margin: 0.2
+      right_margin: 0.03
+      top_margin: 0.03
+      bottom_margin: 0.05
+      condition_label_gap: 0.014
+      phase_label_pad: 0.01
+      duration_label_gap: 0.006
+      timeline_arrow_gap: 0.01
+      timeline_arrow_screen_clearance: 0.007
+      timeline_arrow_text_clearance: 0.01
+      timeline_arrow_extra_per_screen: 0.015
+      timeline_arrow_min_y: 0.02
+      timeline_arrow_max_y: 0.96
+  timelines:
+  - condition: pro
+    display_condition_label: Pro
+    phases:
+    - phase_name: fixation
+      display_phase_label: Fixation
+      duration_ms:
+        range:
+        - 500
+        - 1000
+      response_window_ms: null
+      display_timing_label: 500-1000 ms
+      stim_ids:
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Eye fixation + hand anchor
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: representative pro timeline
+    - phase_name: context cue
+      display_phase_label: Cue
+      duration_ms:
+        fixed: 200
+      response_window_ms: null
+      display_timing_label: 200 ms
+      stim_ids:
+      - context_frame
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Green pro frame + anchors
+        modality: visual
+        draw_hint: mixed
+        render_items:
+        - kind: text
+          text: PRO
+          color: '#9ff29f'
+          pos:
+          - 0.0
+          - 210.0
+          height: 30.0
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: green cue frame indicates the pro rule
+    - phase_name: memory hold
+      display_phase_label: Hold
+      duration_ms:
+        range:
+        - 500
+        - 1500
+      response_window_ms: null
+      display_timing_label: 500-1500 ms
+      stim_ids:
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Eye fixation + hand anchor
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: cue frame removed while fixation is held
+    - phase_name: go cue
+      display_phase_label: Go
+      duration_ms:
+        fixed: 170
+      response_window_ms: null
+      display_timing_label: 170 ms
+      stim_ids:
+      - spatial_cue
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Left cue + anchors
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Spatial cue
+          color: white
+          pos:
+          - -180.0
+          - 0.0
+          size: 0.9
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: representative left cue for the pro family
+    - phase_name: reach response
+      display_phase_label: Response
+      duration_ms:
+        fixed: 1000
+      response_window_ms:
+        fixed: 1000
+      display_timing_label: Resp 1000 ms
+      stim_ids:
+      - spatial_cue
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Left cue visible
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Spatial cue
+          color: white
+          pos:
+          - -180.0
+          - 0.0
+          size: 0.9
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: response window stays open while cue remains visible
+    - phase_name: feedback
+      display_phase_label: Feedback
+      duration_ms:
+        fixed: 300
+      response_window_ms: null
+      display_timing_label: 300 ms
+      stim_ids:
+      - goal_marker
+      - feedback_text
+      stimulus_example:
+        summary: Correct
+        modality: mixed
+        draw_hint: text
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Goal marker
+          color: '#6bff8a'
+          pos:
+          - 150.0
+          - -150.0
+          size: 1.0
+        - kind: text
+          text: Correct
+          color: '#6bff8a'
+          pos:
+          - 0.0
+          - 210.0
+          height: 28.0
+      notes: endpoint marker and Chinese feedback label
+    - phase_name: iti
+      display_phase_label: ITI
+      duration_ms:
+        fixed: 600
+      response_window_ms: null
+      display_timing_label: 600 ms
+      stim_ids:
+      - fixation_cross
+      stimulus_example:
+        summary: +
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: +
+          color: white
+          pos:
+          - 0.0
+          - 0.0
+          height: 44.0
+      notes: neutral separator screen
+    condition_variants:
+    - std_ll_pro_L
+    - std_ll_pro_R
+    - std_rr_pro_L
+    - std_rr_pro_R
+    - gen_lr_pro_L
+    - gen_lr_pro_R
+    - gen_rl_pro_L
+    - gen_rl_pro_R
+    display_condition_note: standard and generalized variants collapse into this pro flow
+  - condition: anti
+    display_condition_label: Anti
+    phases:
+    - phase_name: fixation
+      display_phase_label: Fixation
+      duration_ms:
+        range:
+        - 500
+        - 1000
+      response_window_ms: null
+      display_timing_label: 500-1000 ms
+      stim_ids:
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Eye fixation + hand anchor
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: representative anti timeline
+    - phase_name: context cue
+      display_phase_label: Cue
+      duration_ms:
+        fixed: 200
+      response_window_ms: null
+      display_timing_label: 200 ms
+      stim_ids:
+      - context_frame
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Blue anti frame + anchors
+        modality: visual
+        draw_hint: mixed
+        render_items:
+        - kind: text
+          text: ANTI
+          color: '#8fb7ff'
+          pos:
+          - 0.0
+          - 210.0
+          height: 30.0
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: blue cue frame indicates the anti rule
+    - phase_name: memory hold
+      display_phase_label: Hold
+      duration_ms:
+        range:
+        - 500
+        - 1500
+      response_window_ms: null
+      display_timing_label: 500-1500 ms
+      stim_ids:
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Eye fixation + hand anchor
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: cue frame removed while fixation is held
+    - phase_name: go cue
+      display_phase_label: Go
+      duration_ms:
+        fixed: 170
+      response_window_ms: null
+      display_timing_label: 170 ms
+      stim_ids:
+      - spatial_cue
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Right cue + anchors
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Spatial cue
+          color: white
+          pos:
+          - 180.0
+          - 0.0
+          size: 0.9
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: representative right cue for the anti family
+    - phase_name: reach response
+      display_phase_label: Response
+      duration_ms:
+        fixed: 1000
+      response_window_ms:
+        fixed: 1000
+      display_timing_label: Resp 1000 ms
+      stim_ids:
+      - spatial_cue
+      - eye_fixation
+      - hand_anchor
+      stimulus_example:
+        summary: Right cue visible
+        modality: visual
+        draw_hint: shape
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Spatial cue
+          color: white
+          pos:
+          - 180.0
+          - 0.0
+          size: 0.9
+        - kind: shape
+          shape: circle
+          label: Eye fixation
+          color: '#ff6b6b'
+          pos:
+          - 0.0
+          - 150.0
+          size: 1.0
+        - kind: shape
+          shape: circle
+          label: Hand anchor
+          color: '#e8e8e8'
+          pos:
+          - 0.0
+          - -150.0
+          size: 1.1
+      notes: response window stays open while cue remains visible
+    - phase_name: feedback
+      display_phase_label: Feedback
+      duration_ms:
+        fixed: 300
+      response_window_ms: null
+      display_timing_label: 300 ms
+      stim_ids:
+      - goal_marker
+      - feedback_text
+      stimulus_example:
+        summary: Correct
+        modality: mixed
+        draw_hint: text
+        render_items:
+        - kind: shape
+          shape: circle
+          label: Goal marker
+          color: '#6bff8a'
+          pos:
+          - 150.0
+          - -150.0
+          size: 1.0
+        - kind: text
+          text: Correct
+          color: '#6bff8a'
+          pos:
+          - 0.0
+          - 210.0
+          height: 28.0
+      notes: endpoint marker and Chinese feedback label
+    - phase_name: iti
+      display_phase_label: ITI
+      duration_ms:
+        fixed: 600
+      response_window_ms: null
+      display_timing_label: 600 ms
+      stim_ids:
+      - fixation_cross
+      stimulus_example:
+        summary: +
+        modality: visual
+        draw_hint: text
+        render_items:
+        - kind: text
+          text: +
+          color: white
+          pos:
+          - 0.0
+          - 0.0
+          height: 44.0
+      notes: neutral separator screen
+    condition_variants:
+    - std_ll_anti_L
+    - std_ll_anti_R
+    - std_rr_anti_L
+    - std_rr_anti_R
+    - gen_lr_anti_L
+    - gen_lr_anti_R
+    - gen_rl_anti_L
+    - gen_rl_anti_R
+    display_condition_note: standard and generalized variants collapse into this anti flow
+  legend: []

@@ -1,0 +1,1240 @@
+[
+  {
+    "id": "W2596624061",
+    "title": "Standards of Medical Care in Diabetes\u20142010",
+    "authors": [],
+    "year": 2009,
+    "journal": "Diabetes Care",
+    "doi_or_url": "https://doi.org/10.2337/dc10-s011",
+    "citation_count": 3458,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2586645431",
+    "title": "Standards of Medical Care in Diabetes\u20142011",
+    "authors": [],
+    "year": 2010,
+    "journal": "Diabetes Care",
+    "doi_or_url": "https://doi.org/10.2337/dc11-s011",
+    "citation_count": 2884,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2626017884",
+    "title": "Standards of Medical Care in Diabetes\u20142009",
+    "authors": [],
+    "year": 2008,
+    "journal": "Diabetes Care",
+    "doi_or_url": "https://doi.org/10.2337/dc09-s013",
+    "citation_count": 2206,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2611749980",
+    "title": "ACC/AHA 2007 Guidelines for the Management of Patients With Unstable Angina/Non\u2013ST-Elevation Myocardial Infarction",
+    "authors": [
+      "Jeffrey L. Anderson",
+      "Cynthia D. Adams",
+      "Elliott M. Antman",
+      "Charles R. Bridges",
+      "Robert M. Califf",
+      "Donald E. Casey",
+      "William E. Chavey",
+      "Francis M. Fesmire",
+      "Judith S. Hochman",
+      "Thomas N. Levin",
+      "A. Michael Lincoff",
+      "Eric D. Peterson"
+    ],
+    "year": 2007,
+    "journal": "Circulation",
+    "doi_or_url": "https://doi.org/10.1161/circulationaha.107.181940",
+    "citation_count": 1852,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2005022581",
+    "title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "authors": [
+      "David R. Vago",
+      "David Silbersweig"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2012.00296",
+    "citation_count": 1294,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2003490971",
+    "title": "Evidence-based guidelines for treating bipolar disorder: Revised third edition recommendations from the British Association for Psychopharmacology",
+    "authors": [
+      "GM Goodwin",
+      "Peter Haddad",
+      "I. Nicol Ferrier",
+      "JK Aronson",
+      "TRH Barnes",
+      "Andrea Cipriani",
+      "David Coghill",
+      "Seena Fazel",
+      "John Geddes",
+      "Heinz Grunze",
+      "Emily A. Holmes",
+      "Oliver Howes"
+    ],
+    "year": 2016,
+    "journal": "Journal of Psychopharmacology",
+    "doi_or_url": "https://doi.org/10.1177/0269881116636545",
+    "citation_count": 1282,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2109543774",
+    "title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+    "authors": [
+      "Robin Carhart\u2010Harris",
+      "Robert Leech",
+      "Peter J. Hellyer",
+      "Murray Shanahan",
+      "Amanda Feilding",
+      "Enzo Tagliazucchi",
+      "Dante R. Chialvo",
+      "David Nutt"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2014.00020",
+    "citation_count": 1245,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2945081425",
+    "title": "Mental health in elite athletes: International Olympic Committee consensus statement (2019)",
+    "authors": [
+      "Claudia L. Reardon",
+      "Brian Hainline",
+      "Cindy Miller Aron",
+      "David Baron",
+      "Antonia Baum",
+      "Abhinav Bindra",
+      "Richard Budgett",
+      "Niccolo Campriani",
+      "Jo\u00e3o Maur\u00edcio Castaldelli-Maia",
+      "Alan Currie",
+      "Jeffrey L. Derevensky",
+      "Ira D. Glick"
+    ],
+    "year": 2019,
+    "journal": "British Journal of Sports Medicine",
+    "doi_or_url": "https://doi.org/10.1136/bjsports-2019-100715",
+    "citation_count": 1151,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1976211348",
+    "title": "Different Origins of Gamma Rhythm and High-Gamma Activity in Macaque Visual Cortex",
+    "authors": [
+      "Supratim Ray",
+      "John H. R. Maunsell"
+    ],
+    "year": 2011,
+    "journal": "PLoS Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pbio.1000610",
+    "citation_count": 1104,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2165508369",
+    "title": "Amygdala and Ventromedial Prefrontal Cortex Are Inversely Coupled during Regulation of Negative Affect and Predict the Diurnal Pattern of Cortisol Secretion among Older Adults",
+    "authors": [
+      "Heather L. Urry",
+      "Carien M. van Reekum",
+      "Tom Johnstone",
+      "Ned H. Kalin",
+      "Marchell E. Thurow",
+      "Hillary S. Schaefer",
+      "Cory A. Jackson",
+      "Corrina Frye",
+      "Lawrence L. Greischar",
+      "Andrew L. Alexander",
+      "Richard J. Davidson"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3215-05.2006",
+    "citation_count": 1041,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4240863575",
+    "title": "The psychology and neurobiology of addiction: an incentive\u2013sensitization view",
+    "authors": [
+      "Donita L. Robinson",
+      "Kent Berridge"
+    ],
+    "year": 2000,
+    "journal": "Addiction",
+    "doi_or_url": "https://doi.org/10.1046/j.1360-0443.95.8s2.19.x",
+    "citation_count": 1022,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2100438317",
+    "title": "Neocortical Network Activity<i>In Vivo</i>Is Generated through a Dynamic Balance of Excitation and Inhibition",
+    "authors": [
+      "Bilal Haider",
+      "Alvaro Duque",
+      "Andrea R. Hasenstaub",
+      "David A. McCormick"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5297-05.2006",
+    "citation_count": 991,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2170836456",
+    "title": "Reversals of Age-Related Declines in Neuronal Signal Transduction, Cognitive, and Motor Behavioral Deficits with Blueberry, Spinach, or Strawberry Dietary Supplementation",
+    "authors": [
+      "James A. Joseph",
+      "Barbara Shukitt\u2010Hale",
+      "Natalia A. Denisova",
+      "Donna F. Bielinski",
+      "Antonio Mart\u00edn",
+      "John J. McEwen",
+      "Paula C. Bickford"
+    ],
+    "year": 1999,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.19-18-08114.1999",
+    "citation_count": 974,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2121860798",
+    "title": "STAT3 is a Critical Regulator of Astrogliosis and Scar Formation after Spinal Cord Injury",
+    "authors": [
+      "Julia Herrmann",
+      "Tetsuya Imura",
+      "Bingbing Song",
+      "Jingwei Qi",
+      "Yan Ao",
+      "Thu K. Nguyen",
+      "Rose A. Korsak",
+      "Kiyoshi Takeda",
+      "Shizuo Akira",
+      "Michael V. Sofroniew"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1709-08.2008",
+    "citation_count": 936,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2116336109",
+    "title": "Functional localization of the system for visuospatial attention using positron emission tomography",
+    "authors": [
+      "Anna C. Nobre"
+    ],
+    "year": 1997,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/120.3.515",
+    "citation_count": 911,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2905067650",
+    "title": "Exercise-linked FNDC5/irisin rescues synaptic plasticity and memory defects in Alzheimer\u2019s models",
+    "authors": [
+      "Mychael V. Lourenco",
+      "Rudimar Luiz Frozza",
+      "Guilherme B. de Freitas",
+      "Hong Zhang",
+      "Grasielle C. Kincheski",
+      "Felipe C. Ribeiro",
+      "Rafaella A. Gon\u00e7alves",
+      "Julia R. Clarke",
+      "Danielle Beckman",
+      "Agnieszka Staniszewski",
+      "Hanna L. Berman",
+      "Lorena A. Guerra"
+    ],
+    "year": 2018,
+    "journal": "Nature Medicine",
+    "doi_or_url": "https://doi.org/10.1038/s41591-018-0275-4",
+    "citation_count": 903,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2109503237",
+    "title": "A Neurovascular Niche for Neurogenesis after Stroke",
+    "authors": [
+      "John J. Ohab",
+      "Sheila M. Fleming",
+      "Armin Blesch",
+      "S. Thomas Carmichael"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4323-06.2006",
+    "citation_count": 872,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2125138227",
+    "title": "AGNP Consensus Guidelines for Therapeutic Drug Monitoring in Psychiatry: Update 2011",
+    "authors": [
+      "Christoph Hiemke",
+      "Pierre Baumann",
+      "N. Bergemann",
+      "Andreas Conca",
+      "Otto Dietmaier",
+      "Karin Egberts",
+      "Mirijam Fric",
+      "M. Gerlach",
+      "C. Greiner",
+      "Gerhard Gr\u00fcnder",
+      "Ekkehard Haen",
+      "Ursula Havemann\u2010Reinecke"
+    ],
+    "year": 2011,
+    "journal": "Pharmacopsychiatry",
+    "doi_or_url": "https://doi.org/10.1055/s-0031-1286287",
+    "citation_count": 858,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2140487181",
+    "title": "The Computational Anatomy of Psychosis",
+    "authors": [
+      "Rick A. Adams",
+      "Klaas \u0395. Stephan",
+      "Harriet R. Brown",
+      "Chris Frith",
+      "Karl Friston"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2013.00047",
+    "citation_count": 850,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1934702185",
+    "title": "International Olympic Committee consensus statement on youth athletic development",
+    "authors": [
+      "Michael F. Bergeron",
+      "Margo Mountjoy",
+      "Neil Armstrong",
+      "Michael Chia",
+      "Jean C\u00f4t\u00e9",
+      "Carolyn A. Emery",
+      "Avery D. Faigenbaum",
+      "Gary Hall",
+      "Susi Kriemler",
+      "Michel L\u00e9glise",
+      "Robert M. Malina",
+      "Anne Marte Pensgaard"
+    ],
+    "year": 2015,
+    "journal": "British Journal of Sports Medicine",
+    "doi_or_url": "https://doi.org/10.1136/bjsports-2015-094962",
+    "citation_count": 849,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1502551601",
+    "title": "Synaptic Vesicle Depletion Correlates with Attenuated Synaptic Responses to Prolonged Repetitive Stimulation in Mice Lacking \u03b1-Synuclein",
+    "authors": [
+      "Deborah E. Cabin",
+      "Kazuhiro Shimazu",
+      "Declan Murphy",
+      "Nelson B. Cole",
+      "Wolfram Gottschalk",
+      "Kellie L. McIlwain",
+      "Bonnie M. Orrison",
+      "Amy Chen",
+      "Christopher E. Ellis",
+      "Richard Paylor",
+      "Bai Lu",
+      "Robert L. Nussbaum"
+    ],
+    "year": 2002,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.22-20-08797.2002",
+    "citation_count": 849,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2025604203",
+    "title": "Neurogenesis may relate to some but not all types of hippocampal\u2010dependent learning",
+    "authors": [
+      "Tracey J. Shors",
+      "David A. Townsend",
+      "Mingrui Zhao",
+      "Yevgenia Kozorovitskiy",
+      "Elizabeth Gould"
+    ],
+    "year": 2002,
+    "journal": "Hippocampus",
+    "doi_or_url": "https://doi.org/10.1002/hipo.10103",
+    "citation_count": 846,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2126861692",
+    "title": "Primary Care Guidelines for the Management of Persons Infected with Human Immunodeficiency Virus: 2009 Update by the HIV Medicine Association of the Infectious Diseases Society of America",
+    "authors": [
+      "Judith A. Aberg",
+      "Jonathan E. Kaplan",
+      "Howard Libman",
+      "Patricia Emmanuel",
+      "Jean Anderson",
+      "Valerie E. Stone",
+      "James M. Oleske",
+      "Judith S. Currier",
+      "Joel E. Gallant"
+    ],
+    "year": 2009,
+    "journal": "Clinical Infectious Diseases",
+    "doi_or_url": "https://doi.org/10.1086/605292",
+    "citation_count": 839,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042966900",
+    "title": "Histone Deacetylase Inhibitors Enhance Memory and Synaptic Plasticity via CREB: CBP-Dependent Transcriptional Activation",
+    "authors": [
+      "Christopher G. Vecsey",
+      "Joshua D. Hawk",
+      "K. Matthew Lattal",
+      "Joel M. Stein",
+      "Sara Fabian",
+      "Michelle A. Attner",
+      "Sonia Cabrera",
+      "Conor McDonough",
+      "Paul K. Brindle",
+      "Ted Abel",
+      "Marcelo A. Wood"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0296-07.2007",
+    "citation_count": 836,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2123523993",
+    "title": "Brain Maturation in Adolescence and Young Adulthood: Regional Age-Related Changes in Cortical Thickness and White Matter Volume and Microstructure",
+    "authors": [
+      "Christian K. Tamnes",
+      "Ylva \u00d8stby",
+      "Anders M. Fjell",
+      "Lars T. Westlye",
+      "Paulina Due\u2010T\u00f8nnessen",
+      "Kristine B. Walhovd"
+    ],
+    "year": 2009,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhp118",
+    "citation_count": 803,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110729320",
+    "title": "Regulation of learning and memory by meningeal immunity: a key role for IL-4",
+    "authors": [
+      "Noel Derecki",
+      "Amber Cardani",
+      "Chun Yang",
+      "Kayla M. Quinnies",
+      "Anastasia Crihfield",
+      "Kevin R. Lynch",
+      "Jonathan Kipnis"
+    ],
+    "year": 2010,
+    "journal": "The Journal of Experimental Medicine",
+    "doi_or_url": "https://doi.org/10.1084/jem.20091419",
+    "citation_count": 792,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2028794471",
+    "title": "Prevention of Alzheimer's Disease Pathology by Cannabinoids: Neuroprotection Mediated by Blockade of Microglial Activation",
+    "authors": [
+      "Bel\u00e9n G. Ram\u00edrez",
+      "Cristina Bl\u00e1zquez",
+      "Teresa G\u00f3mez del Pulgar",
+      "Manuel Guzm\u00e1n",
+      "Mar\u0131\u0301a L. de Ceballos"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4540-04.2005",
+    "citation_count": 775,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2151582777",
+    "title": "A Bayesian account of 'hysteria'",
+    "authors": [
+      "Mark J. Edwards",
+      "Rick A. Adams",
+      "Harriet R. Brown",
+      "Isabel Pare\u00e9s",
+      "Karl Friston"
+    ],
+    "year": 2012,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/aws129",
+    "citation_count": 773,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1999985543",
+    "title": "Mushroom body output neurons encode valence and guide memory-based action selection in Drosophila",
+    "authors": [
+      "Yoshinori Aso",
+      "Divya Sitaraman",
+      "Toshiharu Ichinose",
+      "Karla R. Kaun",
+      "Katrin Vogt",
+      "Ghislain Belliart-Gu\u00e9rin",
+      "Pierre-Yves Pla\u00e7ais",
+      "Alice A. Robie",
+      "Nobuhiro Yamagata",
+      "Christopher Schnaitmann",
+      "William J. Rowell",
+      "Rebecca M. Johnston"
+    ],
+    "year": 2014,
+    "journal": "eLife",
+    "doi_or_url": "https://doi.org/10.7554/elife.04580",
+    "citation_count": 756,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1975954553",
+    "title": "Shape shifting pain: chronification of back pain shifts brain representation from nociceptive to emotional circuits",
+    "authors": [
+      "Javeria A. Hashmi",
+      "Marwan N. Baliki",
+      "L. Q. Huang",
+      "Alex T. Baria",
+      "Souraya Torbey",
+      "Kristina M. Hermann",
+      "Thomas J. Schnitzer",
+      "A. Vania Apkarian"
+    ],
+    "year": 2013,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/awt211",
+    "citation_count": 750,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2094377986",
+    "title": "Signature of consciousness in the dynamics of resting-state brain activity",
+    "authors": [
+      "Pablo Barttfeld",
+      "Lynn Uhrig",
+      "Jacobo Sitt",
+      "Mariano Sigman",
+      "B\u00e9chir Jarraya",
+      "Stanislas Dehaene"
+    ],
+    "year": 2015,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1418031112",
+    "citation_count": 745,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2168120562",
+    "title": "Effect of exosomes derived from multipluripotent mesenchymal stromal cells on functional recovery and neurovascular plasticity in rats after traumatic brain injury",
+    "authors": [
+      "Yanlu Zhang",
+      "Michael Chopp",
+      "Yuling Meng",
+      "Mark Katakowski",
+      "Hongqi Xin",
+      "Asim Mahmood",
+      "Ye Xiong"
+    ],
+    "year": 2015,
+    "journal": "Journal of neurosurgery",
+    "doi_or_url": "https://doi.org/10.3171/2014.11.jns14770",
+    "citation_count": 739,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1488313827",
+    "title": "Experience-Dependent Gene Expression in the Rat Hippocampus after Spatial Learning: A Comparison of the Immediate-Early Genes<i>Arc</i>, c-<i>fos</i>, and<i>zif268</i>",
+    "authors": [
+      "John F. Guzowski",
+      "Barry Setlow",
+      "Edward K. Wagner",
+      "James L. McGaugh"
+    ],
+    "year": 2001,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.21-14-05089.2001",
+    "citation_count": 700,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2153693979",
+    "title": "Reward-Related Cortical Inputs Define a Large Striatal Region in Primates That Interface with Associative Cortical Connections, Providing a Substrate for Incentive-Based Learning",
+    "authors": [
+      "Suzanne N. Haber",
+      "Kisok Kim",
+      "Philippe Mailly",
+      "Roberta Calzavara"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0271-06.2006",
+    "citation_count": 695,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1966223858",
+    "title": "European clinical guidelines for hyperkinetic disorder ? first upgrade",
+    "authors": [
+      "Eric Taylor",
+      "M. D\ufffdpfner",
+      "Joseph A. Sergeant",
+      "Philip Asherson",
+      "Tobias Banaschewski",
+      "J. Buitelaar",
+      "David Coghill",
+      "Marina Danckaerts",
+      "A. Rothenberger",
+      "Edmund Sonuga\u2010Barke",
+      "H.\u2010C. Steinhausen",
+      "Alessandro Zuddas"
+    ],
+    "year": 2004,
+    "journal": "European Child & Adolescent Psychiatry",
+    "doi_or_url": "https://doi.org/10.1007/s00787-004-1002-x",
+    "citation_count": 691,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2108466731",
+    "title": "Ketamine Pharmacology: An Update (<i>Pharmacodynamics and Molecular Aspects, Recent Findings</i>)",
+    "authors": [
+      "G. Mion",
+      "Thierry Villevieille"
+    ],
+    "year": 2013,
+    "journal": "CNS Neuroscience & Therapeutics",
+    "doi_or_url": "https://doi.org/10.1111/cns.12099",
+    "citation_count": 665,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2027076429",
+    "title": "A mutualistic approach to morality: The evolution of fairness by partner choice",
+    "authors": [
+      "Nicolas Baumard",
+      "Jean\u2010Baptiste Andr\u00e9",
+      "Dan Sperber"
+    ],
+    "year": 2013,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x11002202",
+    "citation_count": 656,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2020055733",
+    "title": "Global Connectivity of Prefrontal Cortex Predicts Cognitive Control and Intelligence",
+    "authors": [
+      "Michael W. Cole",
+      "Tal Yarkoni",
+      "Grega Repov\u0161",
+      "Alan Anticevic",
+      "Todd S. Braver"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0536-12.2012",
+    "citation_count": 646,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2170595219",
+    "title": "Methylphenidate Enhances Working Memory by Modulating Discrete Frontal and Parietal Lobe Regions in the Human Brain",
+    "authors": [
+      "Mitul A. Mehta",
+      "Adrian M. Owen",
+      "Barbara J. Sahakian",
+      "Nahal Mavaddat",
+      "John D. Pickard",
+      "Trevor W. Robbins"
+    ],
+    "year": 2000,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.20-06-j0004.2000",
+    "citation_count": 611,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2001682194",
+    "title": "Adult-Generated Hippocampal Neurons Allow the Flexible Use of Spatially Precise Learning Strategies",
+    "authors": [
+      "Alexander Garthe",
+      "Joachim Behr",
+      "Gerd Kempermann"
+    ],
+    "year": 2009,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0005464",
+    "citation_count": 595,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2093984890",
+    "title": "Systemic Inflammation Induces Acute Behavioral and Cognitive Changes and Accelerates Neurodegenerative Disease",
+    "authors": [
+      "Colm Cunningham",
+      "Suzanne Campion",
+      "Katie Lunnon",
+      "Carol Murray",
+      "Jack Woods",
+      "Robert M. J. Deacon",
+      "J. N. P. Rawlins",
+      "V. Hugh Perry"
+    ],
+    "year": 2008,
+    "journal": "Biological Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsych.2008.07.024",
+    "citation_count": 588,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2158749728",
+    "title": "Evolution, Discovery, and Interpretations of Arthropod Mushroom Bodies",
+    "authors": [
+      "Nicholas J. Strausfeld",
+      "Lars Kai Hansen",
+      "Yongsheng Li",
+      "Robert S. Gomez",
+      "Kei Ito"
+    ],
+    "year": 1998,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.5.1.11",
+    "citation_count": 587,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2010053974",
+    "title": "Spatial Relational Memory Requires Hippocampal Adult Neurogenesis",
+    "authors": [
+      "David Dupret",
+      "Jean\u2010Michel Revest",
+      "Muriel Koehl",
+      "Fran\u00e7ois Ichas",
+      "Francesca De Giorgi",
+      "Pierre Costet",
+      "Djoher Nora Abrous",
+      "Pier Vincenzo Piazza"
+    ],
+    "year": 2008,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0001959",
+    "citation_count": 587,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2146727059",
+    "title": "Haploinsufficiency of the autism-associated Shank3 gene leads to deficits in synaptic function, social interaction, and social communication",
+    "authors": [
+      "Ozlem Bozdagi",
+      "Takeshi Sakurai",
+      "Danae Papapetrou",
+      "Xiaobin Wang",
+      "Dara L. Dickstein",
+      "Nagahide Takahashi",
+      "Yuji Kajiwara",
+      "Mu Yang",
+      "Adam M. Katz",
+      "Mar\u00eda Luisa Scattoni",
+      "Mark Harris",
+      "Roheeni Saxena"
+    ],
+    "year": 2010,
+    "journal": "Molecular Autism",
+    "doi_or_url": "https://doi.org/10.1186/2040-2392-1-15",
+    "citation_count": 587,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2104663113",
+    "title": "Neuronal Correlates for Preparatory Set Associated with Pro-Saccades and Anti-Saccades in the Primate Frontal Eye Field",
+    "authors": [
+      "Stefan Everling",
+      "Douglas P. Munoz"
+    ],
+    "year": 2000,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.20-01-00387.2000",
+    "citation_count": 566,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2044984028",
+    "title": "Causal interactions between fronto-parietal central executive and default-mode networks in humans",
+    "authors": [
+      "Ashley C. Chen",
+      "Desmond J. Oathes",
+      "Catie Chang",
+      "Travis Bradley",
+      "Zhengwei Zhou",
+      "Leanne M. Williams",
+      "Gary H. Glover",
+      "Karl Deisseroth",
+      "Amit Etkin"
+    ],
+    "year": 2013,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1311772110",
+    "citation_count": 565,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4240794548",
+    "title": "American Association Of Clinical Endocrinologists And American College Of Endocrinology -Clinical Practice Guidelines For Developing A Diabetes Mellitus Comprehensive Care Plan \u2013 2015",
+    "authors": [
+      "Yehuda Handelsman",
+      "Zachary T. Bloomgarden",
+      "George Grunberger",
+      "Guillermo E. Umpierrez",
+      "Robert S. Zimmerman",
+      "Timothy S. Bailey",
+      "Lawrence Blonde",
+      "George A. Bray",
+      "A. Jay Cohen",
+      "Samuel Dagogo\u2010Jack",
+      "Jaime A. Davidson",
+      "Daniel Einhorn"
+    ],
+    "year": 2015,
+    "journal": "Endocrine Practice",
+    "doi_or_url": "https://doi.org/10.4158/ep15672.glsuppl",
+    "citation_count": 563,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2923829929",
+    "title": "Treatment of Diabetes in Older Adults: An Endocrine Society* Clinical Practice Guideline",
+    "authors": [
+      "Derek LeRoith",
+      "Geert Jan Biessels",
+      "Susan S. Braithwaite",
+      "Felipe F. Casanueva",
+      "Boris Draznin",
+      "Jeffrey B. Halter",
+      "Irl B. Hirsch",
+      "Marie E. McDonnell",
+      "Mark E. Molitch",
+      "M. Hassan Murad",
+      "Alan J. Sinclair"
+    ],
+    "year": 2019,
+    "journal": "The Journal of Clinical Endocrinology & Metabolism",
+    "doi_or_url": "https://doi.org/10.1210/jc.2019-00198",
+    "citation_count": 547,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2222356562",
+    "title": "Pharmacological targeting of CSF1R inhibits microglial proliferation and prevents the progression of Alzheimer\u2019s-like pathology",
+    "authors": [
+      "Adri\u00e1n Olmos\u2010Alonso",
+      "Sjoerd Schetters",
+      "Sarmi Sri",
+      "Katharine E. Askew",
+      "Renzo Mancuso",
+      "Mariana Vargas\u2010Caballero",
+      "Christian H\u00f6lscher",
+      "V. Hugh Perry",
+      "Diego G\u00f3mez\u2010Nicola"
+    ],
+    "year": 2016,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/awv379",
+    "citation_count": 540,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2122591357",
+    "title": "Synaptogenesis and FOS Expression in the Motor Cortex of the Adult Rat after Motor Skill Learning",
+    "authors": [
+      "Jeffrey A. Kleim",
+      "Erich Lussnig",
+      "Edward R. Schwarz",
+      "Thomas A. Comery",
+      "William T. Greenough"
+    ],
+    "year": 1996,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.16-14-04529.1996",
+    "citation_count": 538,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

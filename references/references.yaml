@@ -1,0 +1,101 @@
+task_id: T000046
+generated_at: '2026-04-16T00:56:32Z'
+selection_policy: tiered_mix_high_impact_plus_high_citation_open_access
+citation_threshold: 100
+papers:
+- id: W2133917458
+  title: Human Posterior Parietal Cortex Flexibly Determines Reference Frames for
+    Reaching Based on Sensory Context
+  authors:
+  - Pierre‐Michel Bernier
+  - Scott T. Grafton
+  year: 2010
+  journal: Neuron
+  doi_or_url: https://doi.org/10.1016/j.neuron.2010.11.002
+  citation_count: 167
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  - reference_frames
+  parameter_bindings: {}
+  notes: High-impact core paper for context-dependent reference-frame selection in
+    reaching.
+- id: W2012315642
+  title: Neural Dynamics in Monkey Parietal Reach Region Reflect Context-Specific
+    Sensorimotor Transformations
+  authors:
+  - Alexander Gail
+  - Richard A. Andersen
+  year: 2006
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1570-06.2006
+  citation_count: 148
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  - response_rules
+  parameter_bindings: {}
+  notes: Supports context-specific reach transformation timing and rule-dependent
+    selection.
+- id: W2128212281
+  title: Allocentric versus Egocentric Representation of Remembered Reach Targets
+    in Human Cortex
+  authors:
+  - Ying Chen
+  - Simona Monaco
+  - Patrick Byrne
+  - Xiaogang Yan
+  - Denise Y. P. Henriques
+  - J. Douglas Crawford
+  year: 2014
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1445-14.2014
+  citation_count: 115
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - reference_frames
+  - stimulus_layout
+  - response_rules
+  parameter_bindings: {}
+  notes: Relevant for egocentric versus allocentric reach coding and goal localization.
+- id: W1986350479
+  title: That’s Near My Hand! Parietal and Premotor Coding of Hand-Centered Space
+    Contributes to Localization and Self-Attribution of the Hand
+  authors:
+  - Claudio Brozzoli
+  - Giovanni Gentile
+  - H. Henrik Ehrsson
+  year: 2012
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.2660-12.2012
+  citation_count: 291
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - hand_centering
+  - stimulus_layout
+  - feedback
+  parameter_bindings: {}
+  notes: Supports hand-centered spatial coding and the visible hand-anchor layout.
+- id: W2169124255
+  title: 'Human Cortical Control of Hand Movements: Parietofrontal Networks for Reaching,
+    Grasping, and Pointing'
+  authors:
+  - Flavia Filimon
+  year: 2010
+  journal: The Neuroscientist
+  doi_or_url: https://doi.org/10.1177/1073858410375468
+  citation_count: 260
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - instruction_context
+  - stimulus_layout
+  parameter_bindings: {}
+  notes: Broad hand-movement review used for framing the reach-control interface.

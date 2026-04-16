@@ -1,0 +1,261 @@
+# ============================================================================
+# QA config (dev + qa)
+# - Used by: python main.py qa --config config/config_qa.yaml
+# - Scope: qa/dev only (no sim section in this file)
+# - Profile: short smoke run (reduced length, condition-covering)
+# ============================================================================
+
+# === Subject Form ===========================================================
+subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
+
+subinfo_mapping:
+  subject_id: 受试者编号（3位）
+  Participant Information: 参与者信息
+  registration_failed: 注册失败
+  registration_successful: 注册成功
+  invalid_input: "{field} 输入无效"
+
+
+# === Display / Window =======================================================
+window:
+  size: [1024, 768]
+  units: pix
+  screen: 0
+  bg_color: black
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 60
+
+
+# === Task ==================================================================
+task:
+  task_name: anti-reach-task
+  save_path: ./outputs/qa
+  total_blocks: 1
+  total_trials: 16
+  trial_per_block: 16
+  conditions:
+    - std_ll_pro_L
+    - std_ll_pro_R
+    - std_ll_anti_L
+    - std_ll_anti_R
+    - std_rr_pro_L
+    - std_rr_pro_R
+    - std_rr_anti_L
+    - std_rr_anti_R
+    - gen_lr_pro_L
+    - gen_lr_pro_R
+    - gen_lr_anti_L
+    - gen_lr_anti_R
+    - gen_rl_pro_L
+    - gen_rl_pro_R
+    - gen_rl_anti_L
+    - gen_rl_anti_R
+  condition_weights: null
+  key_list: [f, j, space]
+  left_key: f
+  right_key: j
+  seed_mode: same_across_sub
+  overall_seed: 2026
+  delta: 0.0
+  language: Chinese
+  voice_name: zh-CN-YunyangNeural
+  voice_enabled: false
+  input_mode: keyboard
+  hide_cursor: true
+  force_quit_enabled: true
+  force_quit_shortcut: ctrl+q
+  enable_logging: true
+  position_step_px: 145
+  eye_row_y_px: 120
+  hand_row_y_px: -120
+  cue_row_y_px: 120
+  goal_row_y_px: -120
+  frame_size_px: 84
+  fixation_radius_px: 8
+  hand_radius_px: 18
+  cue_radius_px: 14
+  goal_radius_px: 16
+
+
+# === Timing =================================================================
+timing:
+  fixation_duration: [0.3, 0.4]
+  context_cue_duration: 0.12
+  memory_hold_duration: [0.25, 0.45]
+  go_cue_duration: 0.1
+  response_deadline: 0.8
+  feedback_duration: 0.2
+  iti_duration: 0.2
+
+
+# === Stimuli ================================================================
+stimuli:
+  instruction_text:
+    type: text
+    text: |
+      抗到达任务（QA）
+      红点表示眼位，白圈表示手位。
+      绿色方框表示朝目标同方向，蓝色方框表示朝目标相反方向。
+      白色圆点短暂出现后，请按 F 表示向左，J 表示向右（相对于手位）。
+      准备好后按空格开始。
+    font: SimHei
+    color: white
+    height: 28
+    wrapWidth: 980
+    pos: [0, 90]
+
+  fixation_cross:
+    type: text
+    text: "+"
+    font: SimHei
+    color: white
+    height: 42
+    pos: [0, 0]
+
+  eye_fixation:
+    type: circle
+    radius: 8
+    fillColor: [0.95, 0.18, 0.18]
+    lineColor: [0.95, 0.18, 0.18]
+    lineWidth: 1
+    pos: [0, 120]
+
+  hand_anchor:
+    type: circle
+    radius: 18
+    fillColor: null
+    lineColor: white
+    lineWidth: 3
+    pos: [0, -120]
+
+  context_frame:
+    type: rect
+    width: 84
+    height: 84
+    fillColor: null
+    lineColor: [0.25, 0.9, 0.25]
+    lineWidth: 4
+    pos: [0, 120]
+
+  spatial_cue:
+    type: circle
+    radius: 14
+    fillColor: white
+    lineColor: white
+    lineWidth: 1
+    pos: [0, 120]
+
+  goal_marker:
+    type: circle
+    radius: 16
+    fillColor: [0.2, 0.85, 0.35]
+    lineColor: [0.2, 0.85, 0.35]
+    lineWidth: 2
+    pos: [0, -120]
+
+  feedback_text:
+    type: text
+    text: "{feedback_label}"
+    font: SimHei
+    color: white
+    height: 34
+    wrapWidth: 300
+    pos: [0, 260]
+
+  block_break:
+    type: text
+    text: |
+      第 {block_num}/{total_blocks} 组完成
+      正确率：{block_accuracy:.1%}
+      正确反应平均 RT：{mean_rt_ms:.0f} ms
+      超时次数：{timeout_count}
+
+      准备好后按空格继续。
+    font: SimHei
+    color: white
+    height: 26
+    wrapWidth: 980
+
+  good_bye:
+    type: text
+    text: |
+      任务结束
+      总试次：{total_trials}
+      正确率：{total_accuracy:.1%}
+      正确反应平均 RT：{mean_rt_ms:.0f} ms
+      超时次数：{total_timeouts}
+
+      按空格退出。
+    font: SimHei
+    color: white
+    height: 28
+    wrapWidth: 980
+
+
+# === Triggers ===============================================================
+triggers:
+  map:
+    exp_onset: 1
+    exp_end: 2
+    block_onset: 10
+    block_end: 11
+    fixation_onset: 20
+    context_cue_onset: 21
+    memory_hold_onset: 22
+    go_cue_onset: 23
+    response_window_onset: 24
+    feedback_hit_onset: 40
+    feedback_miss_onset: 41
+    response_left: 50
+    response_right: 51
+    response_timeout: 60
+    iti_onset: 70
+
+  driver:
+    type: serial_url
+    url: loop://
+    baudrate: 115200
+
+  timing:
+    post_delay_ms: 1
+
+  policy:
+    strict: false
+
+
+# === QA Runtime =============================================================
+qa:
+  output_dir: outputs/qa
+  enable_scaling: true
+  timing_scale: 0.1
+  min_frames: 1
+  strict: false
+  max_wait_s: 10.0
+  acceptance_criteria:
+    required_columns:
+      - trial_id
+      - block_id
+      - condition
+      - setup
+      - rule
+      - cue_side
+      - eye_side
+      - hand_side
+      - correct_key
+      - timed_out
+      - response_key
+      - response_rt
+      - response_correct
+      - reach_response_response
+      - reach_response_rt
+      - reach_response_hit
+    expected_trial_count: 16
+    allowed_keys: ["f", "j", "space"]
+    triggers_required: true
